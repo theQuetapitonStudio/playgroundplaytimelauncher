@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://3d/grabpack/models/grabpackv1.dae" type="PackedScene" id=1]
+
+[node name="grabpackwc" type="Spatial"]
+
+[node name="grabpackv2" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.833313, 0, 0, 0, 0.833313, 0, 0, 0, 0.833313, -2.52615, 0, -4.58776 )
